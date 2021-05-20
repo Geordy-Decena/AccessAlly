@@ -3,7 +3,7 @@ const readline = require('readline').createInterface({
     output: process.stdout
 });
 
-// Convert digs to array
+// Convert digits to array
 var getDigs = function (hours, mins) {
     var digs = [];
     if (hours > 9) digs.push(1);
